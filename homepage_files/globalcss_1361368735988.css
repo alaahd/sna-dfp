@@ -1,0 +1,93 @@
+.hero li.first i.asset-type {
+	padding: 1px 4px 1px 0px;
+}
+
+ .monster ul li.spot i.asset-type {
+	padding: 1px 4px 1px 0px;
+}
+
+#us-wrap.fixed #us-logo { height: 40px; }
+#us-gadget #dash {*left:110px;}
+
+/* US Widget Fix *** Dont touch below code *** */
+
+#us-gadget-holder.fixed {*top:158px; *left:auto; *width: 100%;*background:none;*padding:0;*height: 580px;}
+#us-gadget {
+*width: 960px;
+*margin: auto;
+*border: 40px solid white;
+*border-top: none;
+}
+#us-gadget #vmeter {
+*background: url('/web/staticasset/2012/11/05/53661/circleie7.png') no-repeat -2px 1px;
+}
+#us-strap ul li.us-oba  {*overflow: hidden;}
+#us-wrap.fixed #us-strap ul li div.us-cand-result {*float:none;}
+#us-wrap.fixed #us-strap ul li.us-oba div.us-cand-result {*padding-right:60px;}
+#us-wrap.fixed #us-strap ul li.us-rom div.us-cand-result {*padding-right:20px;}
+
+/* This is done to show the US Elections link in the sub navigation and hiding the US info bar */
+/* At 4:00 AM when you decide to go live with the US Elections Campaign all you need to do is to remove "!important" from the CSS below */
+/* Make sure to keep the "display:none" */
+
+/* #us-wrap{display:none !important;} */
+
+.carousel .spot h2, #content #body #main h1 { 
+ font-size: 32px;
+}
+
+.ads.leaderboard .fr {
+width: 728px;
+}
+
+/* THIS NEEDS TO BE ADDED FOR THE SURVEY CAMPAIGN */
+#colorbox, #cboxOverlay, #cboxWrapper {
+z-index:99999 !important;
+}
+#content .static_content #polldaddySurvey {
+margin-top: 20px;
+}
+#content .static_content #polldaddySurvey a {
+-moz-box-shadow: inset 0em 1px 0em 0em #f29c93;
+-webkit-box-shadow: inset 0em 1px 0em 0em #F29C93;
+box-shadow: inset 0em 1px 0em 0em #F29C93;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #CA4F49), color-stop(1, #982414));
+background: -moz-linear-gradient(center top, #CA4F49 5%, #982414 100%);
+background-color: #CA4F49;
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+border-radius: 7px;
+border: 3px solid #D4D4D4;
+display: inline-block;
+color: white;
+font-size: 1.214em;
+padding: 0.3em 1.412em 0.4em;
+text-decoration: none;
+text-shadow: 0.059em 0.059em 0em #525252;
+line-height: 16px;
+text-decoration: none !important;
+}
+
+/* Font Awsome */
+
+[class^="icon-"],
+[class*=" icon-"] {
+    *font-family: FontAwesome;
+    *font-style: normal;
+    *font-weight: normal;
+}
+.btn.dropdown-toggle [class^="icon-"], .btn.dropdown-toggle [class*=" icon-"] {
+    *line-height: 1.4em;
+}
+.icon-large {
+    *font-size: 1.3333em;
+}
+.icon-facebook {
+     *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf09a;&nbsp;'); 
+}
+.icon-google-plus {
+    *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0d5;&nbsp;'); 
+}
+.icon-twitter {
+    *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf099;&nbsp;'); 
+}
